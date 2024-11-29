@@ -509,7 +509,7 @@ button:hover {
 .img-5 {
     width: 50%;
     background-color: grey;
-    background-image: url(../dlf-image/cat-a5.jpg);
+    background-image: url(./dlf-image/cat-a5.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -568,19 +568,19 @@ button:hover {
     height: 20vh;
 }
 .timl-1{
-    background-image: url(../dlf-image/hm-17.png);
+    background-image: url(./dlf-image/hm-17.png);
     background-size: cover;
 }
 .timl-2{
-    background-image: url(../dlf-image/marks-and-spencers-18.png);
+    background-image: url(./dlf-image/marks-and-spencers-18.png);
     background-size: cover;
 }
 .timl-3{
-    background-image: url(../dlf-image/uniqlo-19.png);
+    background-image: url(./dlf-image/uniqlo-19.png);
     background-size: cover;
 }
 .timl-4{
-    background-image: url(../dlf-image/zara-20.png);
+    background-image: url(./dlf-image/zara-20.png);
     background-size: cover;
 }
 .btn-5{
@@ -615,7 +615,7 @@ button:hover {
 .img-6 {
     width: 50%;
     background-color: grey;
-    background-image: url(../dlf-image/cat-a6.jpg);
+    background-image: url(./dlf-image/cat-a6.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -679,15 +679,15 @@ button:hover {
     background-size: cover;
 }
 .timx-2{
-    background-image: url(../dlf-image/haldirams-22.png);
+    background-image: url(./dlf-image/haldirams-22.png);
     background-size: cover;
 }
 .timx-3{
-    background-image: url(../dlf-image/home-center-23.png);
+    background-image: url(./dlf-image/home-center-23.png);
     background-size: cover;
 }
 .timx-4{
-    background-image: url(../dlf-image/Miniso-24.png);
+    background-image: url(./dlf-image/Miniso-24.png);
     background-size: cover;
 }
 .btn-6{
@@ -720,7 +720,7 @@ button:hover {
 .img-7 {
     width: 50%;
     background-color: grey;
-    background-image: url(../dlf-image/cat-a7.jpg);
+    background-image: url(./dlf-image/cat-a7.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -780,19 +780,19 @@ button:hover {
     /* background-color: red; */
 }
 .timz-1{
-    background-image: url(/dlf-image/dominos-25.png);
+    background-image: url(./dlf-image/dominos-25.png);
     background-size: cover;
 }
 .timz-2{
-    background-image: url(../dlf-image/kfc-26.png);
+    background-image: url(./dlf-image/kfc-26.png);
     background-size: cover;
 }
 .timz-3{
-    background-image: url(../dlf-image/nazeer-27.png);
+    background-image: url(./dlf-image/nazeer-27.png);
     background-size: cover;
 }
 .timz-4{
-    background-image: url(../dlf-image/taco-28.png);
+    background-image: url(./dlf-image/taco-28.png);
     background-size: cover;
 }
 .btn-7{
