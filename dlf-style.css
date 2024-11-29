@@ -1,0 +1,987 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #cc000e; */
+}
+
+
+.bg1{background-color: aqua;}
+.bg2{background-color: tomato;}
+.bg3{background-color: gray;}
+.bg4{
+background-color: teal;
+}  
+
+.header {
+    background-color: whitesmoke;
+    height: 16vh;
+    display: flex;
+    /* position: fixed; */
+}
+
+.logo {
+    /* background-color: green; */
+    height: 15vh;
+    width: 20%;
+    cursor: pointer;
+    /* position: fixed; */
+
+}
+
+
+.nav {
+    /* background-color: aqua; */
+    height: 15vh;
+    width: 80%;
+    margin-left: 20%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed; */
+}
+
+.nav p {
+    font-size: 12px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav p:hover{
+    color: #969696;
+    cursor: pointer;
+}
+
+.banner {
+    height: 80vh;
+    background-image: url(/dlf-image/b11.png);
+    /* background-image: url(); */
+    /* background-image: url(/dlf-image/banner3.png); */
+    background-size: cover;
+    background-position: center;
+}
+
+.summary {
+    height: 30vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.summary h4 {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-transform: capitalize;
+    font-family: 'Karla', sans-serif;
+    /* padding: 35px 0; */
+    line-height: 36px;
+    /* font-size: 24px; */
+    /* font-family: 'Karla', sans-serif; */
+
+
+    /* margin-top: 10vh; */
+}
+
+.main {
+    height: 80vh;
+    /* background-color: green; */
+    display: flex;
+}
+
+.img {
+    width: 50%;
+    background-color: grey;
+    background-image: url(../dlf-image/cat-a1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    width: 50%;
+   
+    /* background-color: #cc000e; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* gap: 5px; */
+    justify-content: start;   
+
+}
+
+.text h3 {
+
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 5vh;
+}
+
+.text p {
+        margin-left: 5%;
+        margin-right: 10%;
+        text-align: justify;
+        margin-top: 15px;
+    
+ }
+
+ .text h1 {
+
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 5vh;
+
+}
+
+
+.row{
+    height: 20vh;
+    /* background-color: gold; */
+    display: flex;
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.telogo {
+    width: 20%;
+    height: 20vh;
+}
+.timg-1{
+    background-image: url(../dlf-image/funcity-1.png);
+    background-size: cover;
+}
+.timg-2{
+    background-image: url(../dlf-image/pvr.png-2.png);
+    background-size: cover;
+}
+.timg-3{
+    background-image: url(../dlf-image/ssmaaahs-3.png);
+    background-size: cover;
+}
+.timg-4{
+    background-image: url(../dlf-image/game_palacio-4.png);
+    background-size: cover;
+}
+.btn{
+    height: 10vh;
+    width: 100%;
+    /* background-color: forestgreen; */
+
+}
+button {
+    
+    height: 7vh;
+    width: 20%;
+    background-color: whitesmoke;   
+    border: 1px solid black; 
+    margin-left: 7vh ;
+}
+
+button:hover {
+    background-color: #303133;
+    cursor: pointer;
+}
+/* 2 */
+
+.main-2 {
+    height: 80vh;
+    /* background-color: green; */
+    display: flex;
+}
+
+.img-2 {
+    width: 50%;
+    background-color: grey;
+    background-image: url(../dlf-image/cat-a2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-2 {
+    width: 50%;
+   
+    /* background-color: #cc000e; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* gap: 5px; */
+    justify-content: start;   
+
+}
+
+.text-2 h3 {
+
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 5vh;
+}
+
+.text-2 p {
+        margin-left: 5%;
+        margin-right: 10%;
+        text-align: justify;
+        margin-top: 15px;
+    
+ }
+
+ .text-2 h1 {
+
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 5vh;
+
+}
+
+
+.row-2{
+    height: 20vh;
+    /* background-color: gold; */
+    display: flex;
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.telogo{
+    width: 20%;
+    height: 20vh;
+}
+.tima-1{
+    background-image: url(../dlf-image/Chicco-5.png);
+    background-size: cover;
+}
+.tima-2{
+    background-image: url(../dlf-image/hamleys-6.png);
+    background-size: cover;
+}
+.tima-3{
+    background-image: url(../dlf-image/Mother-care-7.png);
+    background-size: cover;
+}
+.tima-4{
+    background-image: url(../dlf-image/tommykids-8.png);
+    background-size: cover;
+}
+.btn-2{
+    height: 10vh;
+    width: 100%;
+    /* background-color: forestgreen; */
+
+}
+button {
+    
+    height: 7vh;
+    width: 20%;
+    background-color: whitesmoke;   
+    border: 1px solid black; 
+    margin-left: 7vh ;
+}
+
+button:hover {
+    background-color: #303133;
+    cursor: pointer;
+}
+/* 3 */
+
+.main-3 {
+    height: 80vh;
+    /* background-color: green; */
+    display: flex;
+}
+
+.img-3 {
+    width: 50%;
+    background-color: grey;
+    background-image: url(../dlf-image/cat-a3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-3 {
+    width: 50%;
+   
+    /* background-color: #cc000e; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* gap: 5px; */
+    justify-content: start;   
+
+}
+
+.text-3 h3 {
+
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 5vh;
+}
+
+.text-3 p {
+        margin-left: 5%;
+        margin-right: 10%;
+        text-align: justify;
+        margin-top: 15px;
+    
+ }
+
+ .text-3 h1 {
+
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 5vh;
+
+}
+
+
+.row-3{
+    height: 20vh;
+    /* background-color: gold; */
+    display: flex;
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.telogo {
+    width: 20%;
+    height: 20vh;
+}
+.timi-1{
+    background-image: url(../dlf-image/chillis-9.png);
+    background-size: cover;
+}
+.timi-2{
+    background-image: url(../dlf-image/Pirates-of-Grill-10.png);
+    background-size: cover;
+}
+.timi-3{
+    background-image: url(../dlf-image/kylin.-11png.png);
+    background-size: cover;
+}
+.timi-4{
+    background-image: url(../dlf-image/big-chill-cafe-12.png);
+    background-size: cover;
+}
+.btn-3{
+    height: 10vh;
+    width: 100%;
+    /* background-color: forestgreen; */
+
+}
+button {
+    
+    height: 7vh;
+    width: 20%;
+    background-color: whitesmoke;   
+    border: 1px solid black; 
+    margin-left: 7vh ;
+}
+
+button:hover {
+    /* background-color: #303133; */
+    background-color: #000;
+    cursor: pointer;
+    color: white;
+}
+/* 4 */
+
+.main-4 {
+    height: 80vh;
+    /* background-color: green; */
+    display: flex;
+}
+
+.img-4 {
+    width: 50%;
+    background-color: grey;
+    background-image: url(../dlf-image/cat-a4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-4 {
+    width: 50%;
+   
+    /* background-color: #cc000e; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* gap: 5px; */
+    justify-content: start;   
+
+}
+
+.text-4 h3 {
+
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 5vh;
+}
+
+.text-4 p {
+        margin-left: 5%;
+        margin-right: 10%;
+        text-align: justify;
+        margin-top: 15px;
+    
+ }
+
+ .text-4 h1 {
+
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 5vh;
+
+}
+
+
+.row-4{
+    height: 20vh;
+    /* background-color: gold; */
+    display: flex;
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.telogo {
+    width: 20%;
+    height: 20vh;
+}
+.timu-1{
+    background-image: url(../dlf-image/Fab-India-13.png);
+    background-size: cover;
+}
+.timu-2{
+    background-image: url(../dlf-image/meena-bazaar-14.png);
+    background-size: cover;
+}
+.timu-3{
+    background-image: url(../dlf-image/ritu-kumar15.png);
+    background-size: cover;
+}
+.timu-4{
+    background-image: url(../dlf-image/meena-bazaar-16.png);
+    background-size: cover;
+}
+.btn-4{
+    height: 10vh;
+    width: 100%;
+    /* background-color: forestgreen; */
+
+}
+button {
+    
+    height: 7vh;
+    width: 20%;
+    background-color: whitesmoke;   
+    border: 1px solid black; 
+    margin-left: 7vh ;
+}
+
+button:hover {
+    background-color: #303133;
+    cursor: pointer;
+}
+/* 5 */
+
+.main-5 {
+    height: 80vh;
+    /* background-color: green; */
+    display: flex;
+}
+
+.img-5 {
+    width: 50%;
+    background-color: grey;
+    background-image: url(../dlf-image/cat-a5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-5 {
+    width: 50%;
+   
+    /* background-color: #cc000e; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* gap: 5px; */
+    justify-content: start;   
+
+}
+
+.text-5 h3 {
+
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 5vh;
+}
+
+.text-5 p {
+        margin-left: 5%;
+        margin-right: 10%;
+        text-align: justify;
+        margin-top: 15px;
+    
+ }
+
+ .text-5 h1 {
+
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 5vh;
+
+}
+
+
+.row-5{
+    height: 20vh;
+    /* background-color: gold; */
+    display: flex;
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.telogo {
+    width: 20%;
+    height: 20vh;
+}
+.timl-1{
+    background-image: url(../dlf-image/hm-17.png);
+    background-size: cover;
+}
+.timl-2{
+    background-image: url(../dlf-image/marks-and-spencers-18.png);
+    background-size: cover;
+}
+.timl-3{
+    background-image: url(../dlf-image/uniqlo-19.png);
+    background-size: cover;
+}
+.timl-4{
+    background-image: url(../dlf-image/zara-20.png);
+    background-size: cover;
+}
+.btn-5{
+    height: 10vh;
+    width: 100%;
+    /* background-color: forestgreen; */
+
+}
+button {
+    
+    height: 7vh;
+    width: 20%;
+    background-color: whitesmoke;   
+    border: 1px solid black; 
+    margin-left: 7vh ;
+}
+
+button:hover {
+    background-color: #303133;
+    cursor: pointer;
+}
+
+
+/* 6 */
+
+.main-6 {
+    height: 80vh;
+    /* background-color: green; */
+    display: flex;
+}
+
+.img-6 {
+    width: 50%;
+    background-color: grey;
+    background-image: url(../dlf-image/cat-a6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-6 {
+    width: 50%;
+   
+    /* background-color: #cc000e; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* gap: 5px; */
+    justify-content: start;   
+
+}
+
+.text-6 h3 {
+
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 5vh;
+}
+
+.text-6 p {
+        margin-left: 5%;
+        margin-right: 10%;
+        text-align: justify;
+        margin-top: 15px;
+    
+ }
+
+ .text-6 h1 {
+
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 5vh;
+
+}
+
+
+.row-6 {
+    height: 20vh;
+    /* background-color: gold; */
+    display: flex;
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.telogo {
+    width: 20%;
+    height: 20vh;
+    /* background-color: red; */
+}
+.timx-1{
+    background-image: url(/dlf-image/le-marche-21.png);
+    background-size: cover;
+}
+.timx-2{
+    background-image: url(../dlf-image/haldirams-22.png);
+    background-size: cover;
+}
+.timx-3{
+    background-image: url(../dlf-image/home-center-23.png);
+    background-size: cover;
+}
+.timx-4{
+    background-image: url(../dlf-image/Miniso-24.png);
+    background-size: cover;
+}
+.btn-6{
+    height: 10vh;
+    width: 100%;
+    /* background-color: forestgreen; */
+
+}
+button {
+    
+    height: 7vh;
+    width: 20%;
+    background-color: whitesmoke;   
+    border: 1px solid black; 
+    margin-left: 7vh ;
+}
+
+button:hover {
+    background-color: #303133;
+    cursor: pointer;
+}
+/* 7 */
+
+.main-7 {
+    height: 80vh;
+    /* background-color: green; */
+    display: flex;
+}
+
+.img-7 {
+    width: 50%;
+    background-color: grey;
+    background-image: url(../dlf-image/cat-a7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-7 {
+    width: 50%;
+   
+    /* background-color: #cc000e; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* gap: 5px; */
+    justify-content: start;   
+
+}
+
+.text-7 h3 {
+
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 5vh;
+}
+
+.text-7 p {
+        margin-left: 5%;
+        margin-right: 10%;
+        text-align: justify;
+        margin-top: 15px;
+    
+ }
+
+ .text-7 h1 {
+
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 5vh;
+
+}
+
+
+.row-7 {
+    height: 20vh;
+    /* background-color: gold; */
+    display: flex;
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.telogo-0 {
+    width: 20%;
+    height: 20vh;
+    /* background-color: red; */
+}
+.timz-1{
+    background-image: url(/dlf-image/dominos-25.png);
+    background-size: cover;
+}
+.timz-2{
+    background-image: url(../dlf-image/kfc-26.png);
+    background-size: cover;
+}
+.timz-3{
+    background-image: url(../dlf-image/nazeer-27.png);
+    background-size: cover;
+}
+.timz-4{
+    background-image: url(../dlf-image/taco-28.png);
+    background-size: cover;
+}
+.btn-7{
+    height: 10vh;
+    width: 100%;
+    /* background-color: forestgreen; */
+
+}
+button {
+    
+    height: 7vh;
+    width: 20%;
+    background-color: whitesmoke;   
+    border: 1px solid black; 
+    margin-left: 7vh ;
+}
+
+button:hover {
+    background-color: #303133;
+    cursor: pointer;
+   
+   
+}
+/* 8 */
+
+
+.suhail{
+    text-align: center;
+    margin: 8vh auto;
+    /* background-color: blue; */
+/* 9     */
+} 
+.pp{
+    text-align: center;
+    margin: 8vh auto;
+    /* background-color: aqua; */
+}
+/* 10 */
+
+.row-9{
+    height: 30vh;
+    width: 95%;
+    /* background-color: red; */
+    margin:2% auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.col-9{
+    height: 100%;
+    width: 20%;
+    /* background-color: orangered; */
+}
+.col-9 img{
+    height: 8vh;
+    object-fit: contain;
+    text-align: center;
+    margin-left: 12vh;
+    margin-top: 2vh;
+    cursor: pointer;
+
+}
+.col-9 p {
+    height: 10vh;
+    object-fit: contain;
+    text-align: center;
+    margin-top: 1vh;
+    /* margin-left: vh; */
+    cursor: pointer;
+
+}
+.footer{
+   height: 50vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+} 
+.foot{
+    height: 100%;
+    width: 25%;
+    /* background-color: blue; */
+}
+
+.f1 h2{
+  font-size: 18px;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-top: 15%;
+  align-items: center;
+  color: white;
+}
+
+.f1 h3{
+  font-size: 18px;
+  align-items: center;
+  margin-top: 5vh;
+  margin-left: 15%;
+  margin-right: 5%;
+  color: white;
+  cursor: pointer;
+ 
+ 
+}
+
+.f2 h2{
+  font-size: 18px;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-top: 15%;
+  align-items: center;
+  color: white;
+}
+
+.f2 h3{
+  font-size: 18px;
+  align-items: center;
+  margin-top: 2vh;
+  margin-left: 15%;
+  margin-right: 5%;
+  color: white;
+  cursor: pointer;
+}
+
+.f3 h2{
+  font-size: 18px;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-top: 15%;
+  align-items: center;
+  color: white;
+}
+
+.f3 h3{
+  font-size: 18px;
+  align-items: center;
+  margin-top: 2vh;
+  margin-left: 15%;
+  margin-right: 5%;
+  color: white;
+  cursor: pointer;
+}
+
+
+.f4 h2{
+  font-size: 18px;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-top: 15%;
+  align-items: center;
+  color: white;
+}
+
+.f4 h3{
+  font-size: 18px;
+  align-items: center;
+  margin-top: 2vh;
+  margin-left: 15%;
+  margin-right: 5%;
+  color: white;
+  cursor: pointer;
+}
+.footer-2{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.foote{
+    height: 100%;
+    width: 33.33%;
+}
+.r1 h4{
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+.r2 img {
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 2%;
+    height: 6vh;
+} 
+.r3 h4{
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+
+
