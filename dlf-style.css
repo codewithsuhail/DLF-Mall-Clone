@@ -472,11 +472,11 @@ button:hover {
     background-size: cover;
 }
 .timu-3{
-    background-image: url(../dlf-image/ritu-kumar15.png);
+    background-image: url(./dlf-image/ritu-kumar15.png);
     background-size: cover;
 }
 .timu-4{
-    background-image: url(../dlf-image/meena-bazaar-16.png);
+    background-image: url(./dlf-image/meena-bazaar-16.png);
     background-size: cover;
 }
 .btn-4{
@@ -509,7 +509,7 @@ button:hover {
 .img-5 {
     width: 50%;
     background-color: grey;
-    background-image: url(./dlf-image/cat-a5.jpg);
+    background-image: url(/dlf-image/cat-a5.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -615,7 +615,7 @@ button:hover {
 .img-6 {
     width: 50%;
     background-color: grey;
-    background-image: url(./dlf-image/cat-a6.jpg);
+    background-image: url(/dlf-image/cat-a6.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -675,7 +675,7 @@ button:hover {
     /* background-color: red; */
 }
 .timx-1{
-    background-image: url(/dlf-image/le-marche-21.png);
+    background-image: url(./dlf-image/le-marche-21.png);
     background-size: cover;
 }
 .timx-2{
@@ -720,7 +720,7 @@ button:hover {
 .img-7 {
     width: 50%;
     background-color: grey;
-    background-image: url(./dlf-image/cat-a7.jpg);
+    background-image: url(/dlf-image/cat-a7.jpg);
     background-size: cover;
     background-position: center;
 }
