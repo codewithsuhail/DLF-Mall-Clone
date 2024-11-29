@@ -615,7 +615,7 @@ button:hover {
 .img-6 {
     width: 50%;
     background-color: grey;
-    background-image: url(/dlf-image/cat-a6.jpg);
+    background-image: url(./dlf-image/cat-a6.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -720,7 +720,7 @@ button:hover {
 .img-7 {
     width: 50%;
     background-color: grey;
-    background-image: url(/dlf-image/cat-a7.jpg);
+    background-image: url(./dlf-image/cat-a7.jpg);
     background-size: cover;
     background-position: center;
 }
