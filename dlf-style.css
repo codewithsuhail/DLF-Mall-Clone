@@ -53,7 +53,7 @@ background-color: teal;
 
 .banner {
     height: 80vh;
-    background-image: url(/dlf-image/b11.png);
+    background-image: url(./dlf-image/b11.png);
     /* background-image: url(); */
     /* background-image: url(/dlf-image/banner3.png); */
     background-size: cover;
@@ -91,7 +91,7 @@ background-color: teal;
 .img {
     width: 50%;
     background-color: grey;
-    background-image: url(../dlf-image/cat-a1.jpg);
+    background-image: url(./dlf-image/cat-a1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -150,19 +150,19 @@ background-color: teal;
     height: 20vh;
 }
 .timg-1{
-    background-image: url(../dlf-image/funcity-1.png);
+    background-image: url(./dlf-image/funcity-1.png);
     background-size: cover;
 }
 .timg-2{
-    background-image: url(../dlf-image/pvr.png-2.png);
+    background-image: url(./dlf-image/pvr.png-2.png);
     background-size: cover;
 }
 .timg-3{
-    background-image: url(../dlf-image/ssmaaahs-3.png);
+    background-image: url(./dlf-image/ssmaaahs-3.png);
     background-size: cover;
 }
 .timg-4{
-    background-image: url(../dlf-image/game_palacio-4.png);
+    background-image: url(./dlf-image/game_palacio-4.png);
     background-size: cover;
 }
 .btn{
@@ -195,7 +195,7 @@ button:hover {
 .img-2 {
     width: 50%;
     background-color: grey;
-    background-image: url(../dlf-image/cat-a2.jpg);
+    background-image: url(./dlf-image/cat-a2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -254,19 +254,19 @@ button:hover {
     height: 20vh;
 }
 .tima-1{
-    background-image: url(../dlf-image/Chicco-5.png);
+    background-image: url(./dlf-image/Chicco-5.png);
     background-size: cover;
 }
 .tima-2{
-    background-image: url(../dlf-image/hamleys-6.png);
+    background-image: url(./dlf-image/hamleys-6.png);
     background-size: cover;
 }
 .tima-3{
-    background-image: url(../dlf-image/Mother-care-7.png);
+    background-image: url(./dlf-image/Mother-care-7.png);
     background-size: cover;
 }
 .tima-4{
-    background-image: url(../dlf-image/tommykids-8.png);
+    background-image: url(./dlf-image/tommykids-8.png);
     background-size: cover;
 }
 .btn-2{
@@ -299,7 +299,7 @@ button:hover {
 .img-3 {
     width: 50%;
     background-color: grey;
-    background-image: url(../dlf-image/cat-a3.jpg);
+    background-image: url(./dlf-image/cat-a3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -358,19 +358,19 @@ button:hover {
     height: 20vh;
 }
 .timi-1{
-    background-image: url(../dlf-image/chillis-9.png);
+    background-image: url(./dlf-image/chillis-9.png);
     background-size: cover;
 }
 .timi-2{
-    background-image: url(../dlf-image/Pirates-of-Grill-10.png);
+    background-image: url(./dlf-image/Pirates-of-Grill-10.png);
     background-size: cover;
 }
 .timi-3{
-    background-image: url(../dlf-image/kylin.-11png.png);
+    background-image: url(./dlf-image/kylin.-11png.png);
     background-size: cover;
 }
 .timi-4{
-    background-image: url(../dlf-image/big-chill-cafe-12.png);
+    background-image: url(./dlf-image/big-chill-cafe-12.png);
     background-size: cover;
 }
 .btn-3{
@@ -405,7 +405,7 @@ button:hover {
 .img-4 {
     width: 50%;
     background-color: grey;
-    background-image: url(../dlf-image/cat-a4.jpeg);
+    background-image: url(./dlf-image/cat-a4.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -464,11 +464,11 @@ button:hover {
     height: 20vh;
 }
 .timu-1{
-    background-image: url(../dlf-image/Fab-India-13.png);
+    background-image: url(./dlf-image/Fab-India-13.png);
     background-size: cover;
 }
 .timu-2{
-    background-image: url(../dlf-image/meena-bazaar-14.png);
+    background-image: url(./dlf-image/meena-bazaar-14.png);
     background-size: cover;
 }
 .timu-3{
